@@ -383,8 +383,7 @@ class JSonReciboValidateService {
       this.errors.push(
         "Pais '" +
           data['cliente']['pais'] +
-          "' del Cliente en data.cliente.pais no encontrado. Valores: " +
-          constanteService.paises.map((a: any) => a.codigo + '-' + a.descripcion),
+          "' del Cliente en data.cliente.pais no encontrado."
       );
     }
 
